@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Buku Tamu Digital</h1>
+        <p>Selamat datang di buku tamu kami</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulir pengunjung</h2>
+
+            <form id="form">
+                <ul>
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+                </ul>
+                <ul>
+                     <label>Instansi / asal</label>
+                    <input type="text" id="instansi" placeholder="Masukkan instansi atau asal">
+                </ul>
+               <ul>
+                 <label>Tujuan Kunjungan</label>
+                    <select id="tujuan">
+                        <option value="">Pilih tujuan</option>
+                        <option value="Keperluan Akademik">Keperluan akademik</option>
+                        <option value="Keperluan Pekerjaan">Keperluan Pekerjaan</option>
+                        <option value="Bertemu Dosen">Bertemu Dosen</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+               </ul>
+               <ul>
+                    <label>Catatan / Pesan</label>
+                    <textarea id="catatan" placeholder="Tuliskan pesan Anda"></textarea>
+               </ul>
+               <ul> <button type="submit">Kirim Data</button></ul>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Daftar tamu</h2>
+
+            <table border="1" width="100%" id="tabel">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Instansi</th>
+                        <th>Tujuan</th>
+                        <th>Catatan</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+            </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 buku tamu digital</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
